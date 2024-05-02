@@ -1,0 +1,16 @@
+﻿  D3DProject.cpp
+C:\Users\김태훈\source\repos\D3DProject\D3DProject\D3DProject.cpp(244,101): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\김태훈\source\repos\D3DProject\D3DProject\D3DProject.cpp(247,102): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D3DProject.obj : error LNK2019: Direct3DCreate9"long __cdecl InitD3D(struct HWND__ *)" (?InitD3D@@YAJPEAUHWND__@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: D3DXVec3Normalize"long __cdecl InitD3D(struct HWND__ *)" (?InitD3D@@YAJPEAUHWND__@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: D3DXMatrixMultiply"public: struct D3DXMATRIX __cdecl D3DXMATRIX::operator*(struct D3DXMATRIX const &)const " (??DD3DXMATRIX@@QEBA?AU0@AEBU0@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: D3DXMatrixScaling"void __cdecl Update(void)" (?Update@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: D3DXMatrixTranslation"void __cdecl Update(void)" (?Update@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: D3DXMatrixRotationY"void __cdecl Update(void)" (?Update@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: D3DXMatrixLookAtLH"void __cdecl SetupMatrices(void)" (?SetupMatrices@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: D3DXMatrixPerspectiveFovLH"void __cdecl SetupMatrices(void)" (?SetupMatrices@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: D3DXCreateTextureFromFileW"long __cdecl InitD3D(struct HWND__ *)" (?InitD3D@@YAJPEAUHWND__@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+D3DProject.obj : error LNK2019: "__int64 __cdecl WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@@YA_JPEAUHWND__@@I_K_J@Z)wWinMain 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\김태훈\source\repos\D3DProject\x64\Debug\D3DProject.exe : fatal error LNK1120: 10개의 확인할 수 없는 외부 참조입니다.

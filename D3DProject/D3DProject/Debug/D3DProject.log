@@ -1,0 +1,4 @@
+﻿  D3DProject.cpp
+C:\Users\김태훈\source\repos\D3DProject\D3DProject\D3DProject.cpp(197,101): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\김태훈\source\repos\D3DProject\D3DProject\D3DProject.cpp(200,102): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  D3DProject.vcxproj -> C:\Users\김태훈\source\repos\D3DProject\Debug\D3DProject.exe
